@@ -1,0 +1,12 @@
+.owner_user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.owner_user img {
+  clip-path: circle(50%);
+}

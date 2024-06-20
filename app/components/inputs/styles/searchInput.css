@@ -1,0 +1,35 @@
+.search_input {
+  position: relative;
+
+  background-color: white;
+  border: 1.2px solid var(--secondary);
+  border-radius: 10px;
+
+  box-shadow: 0 2px 4px var(--secondary-700);
+}
+
+.search_input__field {
+  all: unset;
+  width: 80%;
+  padding-right: 30px;
+
+  font-size: large;
+}
+
+.search_input__field::placeholder {
+  color: #6c727fa2;
+}
+
+.search_input svg,
+.search_input__loader {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  transform: translateY(-50%);
+}
+
+.search_input__loader {
+  top: 25%;
+}

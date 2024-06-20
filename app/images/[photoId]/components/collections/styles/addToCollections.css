@@ -1,0 +1,36 @@
+.add_to__collections {
+  width: 90%;
+  min-width: 600px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: none;
+  border-radius: 5px;
+}
+
+.add_collections_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+}
+
+.search_collections {
+  padding: 1rem;
+}
+
+.add_collections_list {
+  overflow: auto;
+  max-height: 500px;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .add_to__collections {
+    width: 35%;
+    min-width: 600px;
+  }
+}

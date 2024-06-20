@@ -1,0 +1,19 @@
+/* HTML: <div class="loader"></div> */
+.page_loader {
+  min-height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  animation: l1 1s linear infinite alternate;
+}
+
+@keyframes l1 {
+  to {
+    opacity: 0;
+  }
+}

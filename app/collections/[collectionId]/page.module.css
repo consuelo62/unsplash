@@ -1,0 +1,28 @@
+.main {
+  min-height: 90vh;
+}
+
+.main_header {
+  text-align: center;
+}
+
+.main_header h1 {
+  max-width: max-content;
+
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  font-size: 54px;
+  font-weight: 500;
+
+  background: linear-gradient(to right, #f2c593, #8a3282);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main_header span {
+  font-size: 20px;
+  font-weight: 400;
+}

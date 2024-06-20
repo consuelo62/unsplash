@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2rem;
+
+  border-bottom: 1px solid var(--secondary);
+}
+
+.header_links__home {
+  margin-right: 5px;
+}
